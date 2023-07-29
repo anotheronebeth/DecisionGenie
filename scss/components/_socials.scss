@@ -1,0 +1,21 @@
+@import "../base/variables";
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 100px 0;
+  &__item {
+    &:hover {
+      transform: scale(1.5);
+    }
+    transition: all 0.5s ease;
+    display: block;
+    height: 40px;
+    width: 40px;
+    svg {
+      width: 100%;
+      height: 100%;
+      color: rgba($textColor, 0.6);
+    }
+  }
+}
